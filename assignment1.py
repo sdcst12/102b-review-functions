@@ -1,5 +1,9 @@
 import math
 
+"""
+Assignment 1:
+Create the code for the 2 funcions below.  
+"""
 def factors(number):
     # number is an integer value
     # you will likely need to sort the values of your list
