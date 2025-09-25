@@ -16,16 +16,9 @@ At other times, we might want to create a function that returns multiple return 
 Open up sample2.py and see how it looks!
 
 Assignment 1:
-Create a function called **isNegative(float)** that takes a float parameter.  Return a boolean value to indicate whether the result is True or False
+Create a function that takes 2 parameters that are integers.  The function will return both the greatest common factor as well as the lowest common multiple.  You will likely need some other functions to help you accomplish this task.
+Some ideas (you don't have to use them):
+* a function that takes 1 parameter that is an integer.  The function will return a list of the factors for that number
+* a function that takes 2 lists and determines the largest number that is common to both sets
 
-Assignment 2:
-Create a function called "**isHappy(float)**.  This will return a boolean value that meets the following criteria:
-* it is a number
-* is an integer
-* it is positive
-
-Assignment 3:
-Create a function called **isPerfectSquare(float)**.  This will return a True value if the number is a perfect square
-
-Assignment 4:
-Create a function called **isPythagoreanTriple(a,b,c)**.  This will return a True value if the 3 numbers form a pytyagorean triple.  Note that you will ahve to decide which number would be the hypotenuse
+Some sample code is provided.
