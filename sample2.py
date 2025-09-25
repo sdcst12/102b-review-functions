@@ -23,3 +23,12 @@ print(f"x is {listVal[0]} and y is {listVal[1]}. y is a type { type(listVal)} va
 # this code throws an error because it receives 2 values but wants to receive 3
 x,y,z = getRandomXY()
 print(x)
+
+# sometimes we only want to capture one of the return values
+# one way to do this is to use an underscore for the value we want to ignore
+x,_ = getRandomXY()
+print(x)
+
+#another way is to just access the value by index
+x = getRandomXY()[0]
+print(x)
