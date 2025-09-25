@@ -22,3 +22,15 @@ Some ideas (you don't have to use them):
 * a function that takes 2 lists and determines the largest number that is common to both sets
 
 Some sample code is provided.
+
+Assignment 2:
+Find the distance between 2 points in 3d space using (x,y,z) cartesian coordinates as well as the coordinates of the midpoint.  This like the 2d x-y grid system, except there is a 3rd value, z which indicates coming out of the page.
+
+To find the distance between 2 coordinates, we can use the distance formula:
+d = sqrt( (x1-x2)^2 + (y1-y2)^2 )
+
+To find the midpoint, of 2 coordinates in a 2d space, we find their average values:
+
+(xm,ym) = (x1+x2)/2 , (y1+y2)/2
+
+Write a function to determine the midpoint between 2 coordinates in 3d (x,y,z) space

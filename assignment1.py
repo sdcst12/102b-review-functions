@@ -2,7 +2,10 @@ import math
 
 """
 Assignment 1:
-Create the code for the 2 funcions below.  
+Create a function that takes 2 parameters that are integers.  The function will return both the greatest common factor as well as the lowest common multiple.  You will likely need some other functions to help you accomplish this task.
+Some ideas (you don't have to use them):
+* a function that takes 1 parameter that is an integer.  The function will return a list of the factors for that number
+* a function that takes 2 lists and determines the largest number that is common to both sets
 """
 def factors(number):
     # number is an integer value
